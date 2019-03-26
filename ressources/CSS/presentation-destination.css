@@ -1,0 +1,130 @@
+/* DOCUMENT INFORMATION
+        - document : site web photo/presentation destination
+        - version : 1.0.0
+        - author : S. Teillet
+*/
+
+/* COLORS default body text
+        - h1    #000
+        - h2    #009b5a
+        - h3    #000
+        - p     #000  
+
+        - gallery        #909090   
+        - gallery:hover  #000
+*/
+
+/* FONTS
+        - h1    Comfortaa
+        - h2    Kalam
+        - P     default
+*/
+
+/* CSS DIRECTORY
+        1. global
+        2. header
+*/
+
+
+/* GLOBAL */
+
+html {
+   background-color: #fff; 
+}
+
+h1 {
+    font-family: 'Comfortaa', 'Arial', sans-serif;
+    color: #000;
+}
+
+h2 {
+    font-family: 'Kalam', 'Arial', sans-serif;
+    color: #009b5a;
+}
+
+p {
+    color: #000;
+}
+
+/* HEADER */
+
+header {
+    background-color: #fff;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+h1:after {
+    display: block;
+    height: 2px;
+    width: 150px;
+    background-color: #800a0a;
+    content: " ";
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    color: #000;
+    text-align: center;
+    font-size: 100%;
+}
+
+h3 span {
+    color: #800a0a; 
+}
+
+p {
+    text-align: center;
+}
+
+.articles {
+    padding: 25px;
+}
+
+.article-afs {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 5px;
+    padding: 10px;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.article-tzn {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 5px;
+    padding: 10px;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.photo-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

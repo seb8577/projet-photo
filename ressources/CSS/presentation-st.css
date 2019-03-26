@@ -1,0 +1,96 @@
+/* DOCUMENT INFORMATION
+        - document : site web photo
+        - version : 1.0.0
+        - author : S. Teillet
+*/
+
+/* COLORS default body text
+        - h1    #fff
+        - p     #fff
+
+*/
+
+/* FONTS
+        - comfortaa
+        - default
+*/
+
+/* CSS DIRECTORY
+        1. global
+        2. header
+*/
+
+
+/* GLOBAL */
+
+html {
+    background-color: #fff;
+}
+
+h1 {
+    color: #000;
+    font-family: 'Comfortaa', 'Arial', sans-serif;
+}
+
+p {
+    color: #000;
+}
+
+.name {
+    font-family: 'Kalam', 'Arial', sans-serif;
+}
+
+/* HEADER */
+
+header {
+    background-image: url(../images/divers/DSC_0232.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1:after {
+    display: block;
+    height: 2px;
+    width: 150px;
+    background-color: #800a0a;
+    content: " ";
+    margin: 0 auto;
+}
+
+p {
+    font-size: 110%;
+    text-align: center;
+    margin-top: 80px;
+    text-shadow: 0 0 1px;
+}  
+    
+.name {
+    color: #000;
+    font-size: 120%;
+    text-align: right;
+    margin-top: 20px;
+    text-shadow: 0 0 1px;
+} 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+

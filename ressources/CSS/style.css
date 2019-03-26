@@ -1,0 +1,300 @@
+/* DOCUMENT INFORMATION
+        - document : site web photo
+        - version : 1.0.0
+        - author : S. Teillet
+*/
+
+/* COLORS default body text
+        - h1    #000
+        - h2    #000
+        - h3    #009b5a
+        - h4    #009b5a
+        - p     #000
+
+        - icon  #800a0a
+
+        - button    #800a0a
+        - button:hover  #009b5a
+*/
+
+/* FONTS
+        - default
+        - subtitle
+*/
+
+/* CSS DIRECTORY
+        1. global
+        2. header
+        3. presentation
+        4. portfolio
+        5. tirages
+        6. footer
+        7. menu
+*/
+
+
+/* GLOBAL */
+
+html {
+    background-color: #fff;
+}
+
+h1 {
+    font-family: 'Kalam', 'Arial', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 7px;
+}
+
+h2 {
+    font-family: 'Comfortaa', 'Arial', sans-serif;
+    color: #000;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    width: 150px;
+    background-color: #800a0a;
+    content: " ";
+    margin: 0 auto;
+}
+
+h3 {
+    color: #009b5a;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+h4 {
+    color: #009b5a;
+    font-style: italic;
+    text-align: center;
+    padding-top: 10px;
+}
+
+p {
+    color: #000;
+}
+
+/* HEADER */
+
+header {
+    background-image: url(../images/divers/image-bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.home-title {
+    position: relative;
+    padding-top: 300px;
+    text-align: center;
+}
+
+.home-title h1 {
+    font-size: 900%;
+    color: #800a0a;
+}
+
+.home-title h1 span {
+    color: #fff;
+}
+
+.home-title p {
+    font-size: 120%;
+    font-style: italic;
+    color: #fff;
+}
+
+.home-title p span {
+    text-decoration: underline;
+}
+
+/* PRESENTATION */
+
+.photo-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+}
+
+.box {
+    border-radius: 5px 5px;
+    box-shadow: 0 0 10px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 400px;
+}
+
+.presentation-icon {
+    color: #800a0a;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+.presentation-icon:hover {
+    transform: translateX(15px);
+    transition: 1s;
+    color: #009b5a;
+}
+
+a {
+    color: #800a0a;
+}
+
+a:hover {
+    color: #009b5a;
+}
+
+
+/* PORTFOLIO */
+
+.title-picture {
+    display: inline-block;
+    margin-left: 10px;
+    color: #800a0a;
+}
+
+span {
+    color: #009b5a;
+}
+
+.title-icon {
+    font-size: 30px;
+    color: #800a0a;
+}
+
+.picture-travel {
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+    margin-bottom: 25px;
+    color: #000;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.map-responsive iframe{
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+/* TIRAGES */
+
+.tirages {
+    background-color: #000;
+    margin-top: 100px;
+}
+
+.tirages-title {
+    color: #fff;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.tirages-subtitle {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.box-contact {
+    background-color: #800a0a;
+    border-radius: 10px 10px;
+    box-shadow: 0 0 10px;
+    height: 200px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    padding: 15px;
+}
+
+.box-contact-title {
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+    text-decoration: underline;
+}
+
+.picture-contact {
+    height: auto;
+    max-width: 100%;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+form.form-example {
+    display: table;
+    color: #fff;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #312a2a;
+    height: 60px;
+    padding: 20px;
+}
+
+.copyright-text {
+    color: #fff;
+    text-align: center;
+}
+
+p span {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+/* MENU */
+
+.bg-perso {
+    background-color: #958a8a;
+}
+
+
+
+
+

@@ -1,0 +1,86 @@
+/* DOCUMENT INFORMATION
+        - document : site web photo/portfolio tzn
+        - version : 1.0.0
+        - author : S. Teillet
+*/
+
+/* COLORS default body text
+        - h1    #000
+        - p     #000
+
+        - icon  
+
+        - gallery        #909090   
+        - gallery:hover  #000
+*/
+
+/* FONTS
+        - h1    Kalam
+        - P     default
+*/
+
+/* CSS DIRECTORY
+        1. global
+        2. gallery
+*/
+
+
+/* GLOBAL */
+
+h1 {
+    font-family: 'Kalam', 'Arial', sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 400%;
+    text-align: center;
+    padding: 30px;
+}
+
+p {
+    color: #000;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+span {
+    color: #800a0a;
+}
+
+html {
+    background-color: #fff;
+}
+
+/* GALLERY */
+
+.container {
+    margin-top: -20px;
+}
+
+.gallery {
+    border: 1px solid #909090;
+    box-shadow: 0 0 5px;
+    margin-top: 30px;
+    -webkit-transition: all 1s ease;
+}
+
+.gallery:hover {
+    border: 1px solid #000;
+    -webkit-transform:scale(1.2);
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+}
+
+.description {
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+
+

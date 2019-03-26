@@ -1,0 +1,78 @@
+/* DOCUMENT INFORMATION
+        - document : site web photo
+        - version : 1.0.0
+        - author : S. Teillet
+*/
+
+/* COLORS default body text
+        - h1    #000
+        - p     
+
+        - icon  
+
+        - button    
+        - button:hover  
+*/
+
+/* FONTS
+        - default
+        - subtitle
+*/
+
+/* CSS DIRECTORY
+        1.      global
+        2.1     body title
+        2.2     body container
+*/
+
+
+/* GLOBAL */
+
+html {
+    background-color: #fff;
+}
+
+h1 {
+    color: #403c3c;
+}
+
+p {
+    color: #000;
+}
+
+/* BODY */
+
+    /* title */
+
+h1 {
+    text-align: center;
+    padding: 50px;
+}
+
+    /* container */
+
+input {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+textarea {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.btn2 {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
